@@ -4,6 +4,7 @@
 rain.py
 """
 
+
 def rain(walls):
     """
     Calculate how many square units of water will be retained after it rains.
@@ -34,6 +35,7 @@ def rain(walls):
         total_water += water_height
 
     return total_water
+
 
 if __name__ == "__main__":
     walls = [0, 1, 0, 2, 0, 3, 0, 4]
